@@ -10,7 +10,7 @@ Version: %{version}
 Release: 1%{dist}
 License: GPL
 Group: Utilities/System
-Source0: %{name}-%{version}.tar.gz
+Source0: https://downloads.asterisk.org/pub/telephony/dahdi-linux/dahdi-linux-2.11.1.tar.gz
 Patch0: 0001-Add-version.h.patch
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
 URL: http://www.asterisk.org/
