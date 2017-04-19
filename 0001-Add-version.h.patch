@@ -1,0 +1,12 @@
+diff -ur dahdi-linux-2.11.1.orig/Makefile dahdi-linux-2.11.1/Makefile
+--- dahdi-linux-2.11.1.orig/Makefile	2016-10-21 10:29:08.039430178 +1000
++++ dahdi-linux-2.11.1/Makefile	2016-10-21 10:29:47.710837071 +1000
+@@ -49,7 +49,7 @@
+ 
+ MODULE_ALIASES:=wcfxs wctdm8xxp wct2xxp
+ 
+-INST_HEADERS:=kernel.h user.h fasthdlc.h wctdm_user.h dahdi_config.h
++INST_HEADERS:=kernel.h user.h fasthdlc.h wctdm_user.h dahdi_config.h version.h
+ 
+ DAHDI_BUILD_ALL:=m
+ 
