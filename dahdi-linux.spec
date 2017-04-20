@@ -19,7 +19,6 @@ Packager: Nethesis <info@nethesis.it>
 Requires: kmod
 Requires: dahdi-firmware
 Requires: kmod-dahdi-linux
-Requires: libwat
 BuildRequires: vim
 %description
 The open source DAHDI project
