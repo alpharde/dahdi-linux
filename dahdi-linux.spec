@@ -7,7 +7,7 @@
 Summary: The DAHDI project
 Name: dahdi-linux
 Version: 2.11.1
-Release: 1%{dist}
+Release: 2%{dist}
 License: GPL
 Group: Utilities/System
 Source0: https://downloads.asterisk.org/pub/telephony/dahdi-linux/dahdi-linux-2.11.1.tar.gz
@@ -58,3 +58,11 @@ cd $RPM_BUILD_DIR
 %files devel
 %defattr(-, root, root)
 %{_includedir}/dahdi/
+
+%changelog
+* Fri Nov 10 2017 Stefano Fancello <stefano.fancello@nethesis.it> - 2.11.1-2
+- Bump version
+
+* Tue May 09 2017 Stefano Fancello <stefano.fancello@nethesis.it> - 2.11.1-1
+- First NethServer package
+
